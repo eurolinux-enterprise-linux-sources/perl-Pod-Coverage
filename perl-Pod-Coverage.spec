@@ -1,6 +1,6 @@
 Name:           perl-Pod-Coverage
 Version:        0.23
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Checks if the documentation of a module is comprehensive
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -69,6 +69,9 @@ make test
 %{_mandir}/man3/Pod::Coverage::Overloader.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.23-3
+- Mass rebuild 2013-12-27
+
 * Wed May 22 2013 Petr Pisar <ppisar@redhat.com> - 0.23-2
 - Do not put ./lib into @INC by pod_cover tool
 
